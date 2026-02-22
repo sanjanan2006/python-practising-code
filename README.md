@@ -24,3 +24,12 @@ print("Addition",a+b)
 print("Subtraction",a-b)
 print("multiplication",a*b)            
 '''
+## hakerrank solutions
+'''python
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    print(a+b)
+    print(a-b)
+    print(a*b)
+'''
