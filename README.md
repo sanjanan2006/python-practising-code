@@ -50,7 +50,18 @@ s=input()
 print(s.swapcase())
 
 s=input()
-print(len(s.split()))
+print(len(s.split
+
+## slicing of strings
+text="python"
+print(text[0:2])
+
+text="programming"
+print(text[::2])
+print(len(text))
+print(text[0:11:2])
+print(text[1::3])
+print(text[::-1])
 
 ## repetition of string
 symbol="*"
