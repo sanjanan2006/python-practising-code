@@ -39,6 +39,19 @@ c="python"
 result=a+" "+b+" "+c
 print(result)
 
+## string manipulation methods
+text="banana"
+print(text.count("a"))
+
+s=input()
+print(s.replace(" ","-"))
+
+s=input()
+print(s.swapcase())
+
+s=input()
+print(len(s.split()))
+
 ## repetition of string
 symbol="*"
 print(symbol*10)
