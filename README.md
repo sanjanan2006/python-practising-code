@@ -30,6 +30,17 @@ if __name__ == '__main__':
     a = int(input())
     b = int(input())
     print(a+b)
-    print(a-b)
+    print(a-b)repe
+
+## concatenation of string
+a="hello"
+b="world"
+c="python"
+result=a+" "+b+" "+c
+print(result)
+
+## repetition of string
+symbol="*"
+print(symbol*10)
     print(a*b)
 '''
