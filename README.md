@@ -24,13 +24,6 @@ print("Addition",a+b)
 print("Subtraction",a-b)
 print("multiplication",a*b)            
 '''
-## hakerrank solutions
-'''python
-if __name__ == '__main__':
-    a = int(input())
-    b = int(input())
-    print(a+b)
-    print(a-b)repe
 
 ## concatenation of string
 a="hello"
@@ -97,3 +90,10 @@ symbol="*"
 print(symbol*10)
     print(a*b)
 '''
+## comparision operator
+a=20
+b=50
+print(a==b)
+print(a>b)
+print(a!=b)
+print(a>=b)
