@@ -63,7 +63,36 @@ print(text[0:11:2])
 print(text[1::3])
 print(text[::-1])
 
+## assignment operators
+'''python
+a=10
+a+=100
+print(a)
+
+x=5
+x-=3
+print(x)
+
+x=10
+x//=3
+print(x)
+
+x=20
+x**=2
+print(x)
+
+x=10
+x%=5
+print(x)
+
+salary=int(input())
+salary+=salary*0.20
+print(int(salary))
+'''
+
+
 ## repetition of string
+'''python
 symbol="*"
 print(symbol*10)
     print(a*b)
