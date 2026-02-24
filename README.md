@@ -91,9 +91,17 @@ print(symbol*10)
     print(a*b)
 '''
 ## comparision operator
+'''python
 a=20
 b=50
 print(a==b)
 print(a>b)
 print(a!=b)
 print(a>=b)
+'''
+## logical and membership operator
+'''python
+marks = 85
+subjects =["maths","science","english"]
+print(marks>90 and "maths" in subjects)
+'''
