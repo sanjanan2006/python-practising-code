@@ -105,3 +105,11 @@ marks = 85
 subjects =["maths","science","english"]
 print(marks>90 and "maths" in subjects)
 '''
+## bitwise operator
+'''pyhton
+a=5
+b=3
+print(a&b)
+print(a|b)
+print(a^b)
+'''
