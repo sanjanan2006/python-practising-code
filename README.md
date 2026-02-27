@@ -130,3 +130,14 @@ print(list)
 list[0]="coffee powder"
 print(list)
 '''
+## slicing of list
+'''python
+l=[0,2,4,6,8,9]
+print(l[::2])
+print(l[0:5])
+print(l[2:6:2])
+print(l[:2])
+print(l[3:])
+print(l[-4:-1])
+print(l[::-2])
+'''
