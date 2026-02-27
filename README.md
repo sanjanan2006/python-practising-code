@@ -113,3 +113,20 @@ print(a&b)
 print(a|b)
 print(a^b)
 '''
+## list and it's types(methods)
+'''python
+list=[1,"bru",True,[1,2,3]]
+print(list)
+
+list=["bru","sugar","milk"]
+list.pop()
+print(list)
+list.remove("sugar")
+print(list)
+list.append("chicken")
+print(list)
+list.insert(1,"muton")
+print(list)
+list[0]="coffee powder"
+print(list)
+'''
