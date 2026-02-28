@@ -141,3 +141,19 @@ print(l[3:])
 print(l[-4:-1])
 print(l[::-2])
 '''
+## functions of list
+'''python
+items=["bru","sugar","milk"]
+print(len(items))
+l=[1,24,13,40,5]
+print(sum(l))
+print(items.index("bru"))
+n=[1,2,1,4,1,6,7]
+print(n.count(1))
+print(l.reverse())
+print(sorted(l))
+
+matrix=[[1,2,3],[4,5,6],[7,8,9]]
+print(matrix[0])
+print(matrix[2])
+'''
