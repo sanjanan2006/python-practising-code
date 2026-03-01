@@ -157,3 +157,15 @@ matrix=[[1,2,3],[4,5,6],[7,8,9]]
 print(matrix[0])
 print(matrix[2])
 '''
+## list comphrensions
+'''python
+sqaures=[x*x for x in range(5)]
+print(sqaures)
+
+nums=[5,4,8,4,5]
+print(len(nums))
+print(max(nums))
+print(min(nums))
+nums.sort()
+print(nums)
+'''
