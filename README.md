@@ -169,3 +169,14 @@ print(min(nums))
 nums.sort()
 print(nums)
 '''
+## tuples examples
+'''python
+t=(10,"sanju",3.5,True)
+print(t)
+
+t=(10,)
+print(t)
+
+t=5,8,9
+print(t)
+'''
