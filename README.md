@@ -178,5 +178,36 @@ t=(10,)
 print(t)
 
 t=5,8,9
+## tuples operations and methods
+'''python
+# concatenation 
+t1=(1,2,3,4)
+t2=(5,6,7,8)
+result=t1+t2
+print(result)
+# repetation
+t=(1,4)
+print(t*4)
+# membership
+t=(10,20,30)
+print(20 in t)
+print(10 not in t)
+# tuple length
+t=(1,2,3,4,5,6,)
+print(len(t))
+# finding minimum and maximum
+t=(8,3,12,6)
+print(min(t))
+print(max(t))
+# counting elements
+t=(1,3,5,3,)
+print(t.count(3))
+# finding index of element
+t=("apple","mango","banana")
+print(t.index("mango"))
+'''
+
+
+
 print(t)
 '''
