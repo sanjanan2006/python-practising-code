@@ -206,6 +206,17 @@ print(t.count(3))
 t=("apple","mango","banana")
 print(t.index("mango"))
 '''
+# creating set 
+'''python
+numbers={1,2,3,4}
+print(numbers)
+
+# set automatically removes duplicates
+numbers={1,3,4,3,3}
+print(numbers)
+'''
+
+
 
 
 
