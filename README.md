@@ -215,10 +215,25 @@ print(numbers)
 numbers={1,3,4,3,3}
 print(numbers)
 '''
-
-
-
-
-
-print(t)
+# add element
+'''python
+fruits={"apple","banana"}
+fruits.add("orange")
+print(fruits)
+# removing an element
+fruits={"apple","cherry","banana","mango"}
+fruits.remove("cherry")
+print(fruits)
+# set operations
+A={1,2,3}
+B={3,5,6}
+print(A|B) #union
+print(A&B) #intersection
+print(A-B) #differnce
+# length of set
+numbers={1,2,3,4}
+print(len(numbers))
+# no indexing
+numbers={1,2,3}
+print(numbers[0])
 '''
