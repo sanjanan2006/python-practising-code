@@ -237,3 +237,43 @@ print(len(numbers))
 numbers={1,2,3}
 print(numbers[0])
 '''
+'''python
+my_dict={
+    "name":"sanjana",
+    "age":20,
+    "weight":20.5,
+}
+print(my_dict)
+
+# accessing values
+student={
+    "course":"python",
+    "name":"sanju",
+    "age":20,
+}
+print(student["name"])
+
+# adding a new item
+student={
+    "name":"sanju",
+    "age":20,
+}
+student["course"]="python"
+print(student)
+
+# updating a value
+student={
+    "name":"sanju",
+    "age":20,
+}
+student["age"]=21
+print(student)
+
+# nested dictionary
+students={
+    "s1":{"name":"sanju","age":20},
+    
+    "s2":{"name":"sanjana","age":21},
+}
+print(student([s1][name]))
+'''
