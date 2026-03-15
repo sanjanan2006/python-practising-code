@@ -288,7 +288,7 @@ print(student.values())
 # pop()student={"name":"sanjana","age":20,"course":"python"}
 student.pop("course")
 print(student)
-# itmes()
+# items()
 student={"name":"sanjana","age":20,"course":"python"}
 print(student.items())
 # get()
