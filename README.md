@@ -277,5 +277,35 @@ student={
 }
 print(student["marks"]["math"])
 '''
+## dictonary methods
+'''python
+# keys()
+student={"name":"sanjana","age":20,"course":"python"}
+print(student.keys())
+#values()
+student={"name":"sanjana","age":20,"course":"python"}
+print(student.values())
+# pop()student={"name":"sanjana","age":20,"course":"python"}
+student.pop("course")
+print(student)
+# itmes()
+student={"name":"sanjana","age":20,"course":"python"}
+print(student.items())
+# get()
+student={"name":"sanjana","age":20,"course":"python"}
+print(student.get("name"))
+# update()
+student={"name":"sanjana","age":20,"course":"python"}
+student.update({"age":21})
+print(student)
+# popitem()
+student={"name":"sanjana","age":20,"course":"python"}
+student.popitem()
+print(student)
+# clear()
+student={"name":"sanjana","age":20,"course":"python"}
+student.clear()
+print(student)
+'''
 print(student([s1][name]))
 '''
