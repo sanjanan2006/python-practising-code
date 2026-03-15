@@ -270,10 +270,12 @@ student["age"]=21
 print(student)
 
 # nested dictionary
-students={
-    "s1":{"name":"sanju","age":20},
-    
-    "s2":{"name":"sanjana","age":21},
+
+student={
+    "name":"sanju",
+    "marks":{"math":90,"science":85}
 }
+print(student["marks"]["math"])
+'''
 print(student([s1][name]))
 '''
